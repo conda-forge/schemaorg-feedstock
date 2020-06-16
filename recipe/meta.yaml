@@ -1,5 +1,5 @@
 {% set name = "schemaorg" %}
-{% set version = "0.0.23" %}
+{% set version = "0.0.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d8cf37ac540bc48753aaa0953668aeddbac9e7bf01f297788e5c400fda11cf71
+  sha256: fa90f05661c5ddad692116204ced3710097420470f80e9a4d7a6eae82b30abcf
 
 build:
   number: 0
@@ -47,8 +47,8 @@ about:
   license: AGPL-3.0-or-later
   license_family: AGPL
   license_file: LICENSE
-  summary: "Python functions for applied use of schema.org"
-  description: "Python functions for instantiating and validating schemas."
+  summary: Python functions for applied use of schema.org
+  description: Python functions for instantiating and validating schemas.
   doc_url: https://openschemas.github.io/schemaorg
   dev_url: https://github.com/openschemas/schemaorg
 
