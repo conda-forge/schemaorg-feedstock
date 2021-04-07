@@ -1,5 +1,5 @@
 {% set name = "schemaorg" %}
-{% set version = "0.0.24" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fa90f05661c5ddad692116204ced3710097420470f80e9a4d7a6eae82b30abcf
+  sha256: 36ff16341c447b1da6f58287478a4eb8cf8f3d21f4ab961474c8821181629a08
 
 build:
   number: 0
